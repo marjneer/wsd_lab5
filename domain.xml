@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="domain.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="transform.xsl" type="text/xsl"?>
+<places>
+    <destination>
+        <area>Hauz Khas</area>
+        <attraction>Hauz Khas Fort</attraction>
+        <description>The Hauz Khas Fort, situated near the Hauz Khas Village is known for its amazing architecture. Once a majestic fort, all that remains of it are the ruins of the medieval era. The fort was constructed during the reign of Alauddin Khalji in the 13th century.</description>
+        <rating>4.5</rating>
+        <ticket>30</ticket>
+        <station>Hauz Khas</station>
+    </destination>
+    <destination>
+        <area>Nizamuddin</area>
+        <attraction>Humayun's Tomb</attraction>
+        <description>The Humayun's Tomb is a UNESCO World Heritage Site in Delhi Built for Mughal Emperor Humayun in the year 1570, itis the first grand dynastic garden mausoleum of the subcontinent. The tomb was constructed on the banks of the Yamuna river near the Nizamuddin Dargah.</description>
+        <rating>4.5</rating>
+        <ticket>35</ticket>
+        <station>Jangpura</station>
+    </destination>
+    <destination>
+        <area>Connaught Place</area>
+        <attraction>Jantar Mantar</attraction>
+        <description>Jantar Mantar (Yantra - instruments, mantra - formulae) was constructed in 1724. Maharaja Jai Singh of Jaipur who built this observatory went on to build other observatories in Ujjain , Varanasi and Mathura.</description>
+        <rating>4.8</rating>
+        <ticket>25</ticket>
+        <station>Patel Chowk</station>
+    </destination>
+</places>

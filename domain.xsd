@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="places">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="destination" maxOccurs="unbounded">
+                    <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="area" type="xs:string"/>
+                        <xs:element name="attraction" type="xs:string"/>
+                        <xs:element name="description" type="xs:string"/>
+                        <xs:element name="rating">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:float">
+                                <xs:minInclusive value="0.0"/>
+                                <xs:maxInclusive value="5.0"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="ticket" type="xs:float"/>
+                        <xs:element name="station" type="xs:string"/>
+                    </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>                
+</xs:schema>
